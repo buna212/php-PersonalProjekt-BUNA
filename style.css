@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(226, 149, 203);
+}
+
+h1{
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+product img {
+    height: 300px;
+    width: 300px;
+}
+
