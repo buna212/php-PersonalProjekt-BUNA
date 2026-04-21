@@ -3,116 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urban Doll NYC
-        
-    </title>
+    <title>SIGN UP !!!</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-    
- <?php include 'header.php';?>
-
-<section class="vh-100 gradient-custom">
+     <?php include 'header.php';?>
+<section class="h-100 gradient-form" style="background-color: #eee;">
   <div class="container py-5 h-100">
-    <div class="row justify-content-center align-items-center h-100">
-      <div class="col-12 col-lg-9 col-xl-7">
-        <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
-          <div class="card-body p-4 p-md-5">
-            <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
-            <form>
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-xl-10">
+        <div class="card rounded-3 text-black">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="card-body p-md-5 mx-md-4">
 
-              <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="text-center">
+                  <img src="img/lotus.webp"
+                    style="width: 185px;" alt="logo">
+                  <h4 class="mt-1 mb-5 pb-1">We are The Lotus Team</h4>
+                </div>
 
-                  <div data-mdb-input-init class="form-outline">
-                    <input type="text" id="firstName" class="form-control form-control-lg" />
-                    <label class="form-label" for="firstName">First Name</label>
+                <form>
+                  <p>Please login to your account</p>
+
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="email" id="form2Example11" class="form-control"
+                      placeholder="Phone number or email address" />
+                    <label class="form-label" for="form2Example11">Username</label>
                   </div>
 
-                </div>
-                <div class="col-md-6 mb-4">
-
-                  <div data-mdb-input-init class="form-outline">
-                    <input type="text" id="lastName" class="form-control form-control-lg" />
-                    <label class="form-label" for="lastName">Last Name</label>
+                  <div data-mdb-input-init class="form-outline mb-4">
+                    <input type="password" id="form2Example22" class="form-control" />
+                    <label class="form-label" for="form2Example22">Password</label>
                   </div>
 
-                </div>
+                  <div class="text-center pt-1 mb-5 pb-1">
+                    <button data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Log
+                      in</button>
+                    <a class="text-muted" href="#!">Forgot password?</a>
+                  </div>
+
+                  <div class="d-flex align-items-center justify-content-center pb-4">
+                    <p class="mb-0 me-2">Don't have an account?</p>
+                    <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-danger">Create new</button>
+                  </div>
+
+                </form>
+
               </div>
-
-              <div class="row">
-                <div class="col-md-6 mb-4 d-flex align-items-center">
-
-                  <div data-mdb-input-init class="form-outline datepicker w-100">
-                    <input type="text" class="form-control form-control-lg" id="birthdayDate" />
-                    <label for="birthdayDate" class="form-label">Birthday</label>
-                  </div>
-
-                </div>
-                <div class="col-md-6 mb-4">
-
-                  <h6 class="mb-2 pb-1">Gender: </h6>
-
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
-                      value="option1" checked />
-                    <label class="form-check-label" for="femaleGender">Female</label>
-                  </div>
-
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
-                      value="option2" />
-                    <label class="form-check-label" for="maleGender">Male</label>
-                  </div>
-
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
-                      value="option3" />
-                    <label class="form-check-label" for="otherGender">Other</label>
-                  </div>
-
-                </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
+              <div class="text-white px-3 py-4 p-md-5 mx-md-4">
+                <h4 class="mb-4">We are more than just a company</h4>
+                <p class="small mb-0">You should trust our company because we are committed to honesty,
+                     quality, and putting our customers first. We work hard to deliver reliable products
+                      and services, maintain transparent communication, and always stand behind what we offer.
+                       Our goal is to build long-term relationships by consistently meeting expectations
+                     and earning our customers’ confidence. 😊</p>
               </div>
-
-              <div class="row">
-                <div class="col-md-6 mb-4 pb-2">
-
-                  <div data-mdb-input-init class="form-outline">
-                    <input type="email" id="emailAddress" class="form-control form-control-lg" />
-                    <label class="form-label" for="emailAddress">Email</label>
-                  </div>
-
-                </div>
-                <div class="col-md-6 mb-4 pb-2">
-
-                  <div data-mdb-input-init class="form-outline">
-                    <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
-                    <label class="form-label" for="phoneNumber">Phone Number</label>
-                  </div>
-
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-12">
-
-                  <select class="select form-control-lg">
-                    <option value="1" disabled>Choose option</option>
-                    <option value="2">Subject 1</option>
-                    <option value="3">Subject 2</option>
-                    <option value="4">Subject 3</option>
-                  </select>
-                  <label class="form-label select-label">Choose option</label>
-
-                </div>
-              </div>
-
-              <div class="mt-4 pt-2">
-                <input data-mdb-ripple-init class="btn btn-primary btn-lg" type="submit" value="Submit" />
-              </div>
-
-            </form>
+            </div>
           </div>
         </div>
       </div>
@@ -121,6 +71,7 @@
 </section>
 
  <?php include 'footer.php';?>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@
   <div class="orb orb-3"></div>
 </div>
 
-
+<!-- Navbar -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-glass py-2" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="#">Lumière</a>
@@ -32,6 +32,10 @@
     </div>
   </div>
 </nav>
+
+
+
+
 
 
 
