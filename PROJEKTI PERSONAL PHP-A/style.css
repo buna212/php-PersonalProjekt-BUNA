@@ -1,0 +1,144 @@
+
+:root {
+/*   Glassmorphism tokens */
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --glass-shadow: rgba(0, 0, 0, 0.25);
+  --accent: #7df9ff;
+  --accent-warm: #ff6b9d;
+  --accent-purple: #a78bfa;
+  --text-muted-alpha: 0.58;
+
+/*   Bootstrap overrides */
+  --bs-body-font-family: "Epilogue", sans-serif;
+  --bs-body-bg: #080816;
+  --bs-body-color: #f0f0f0;
+  --bs-body-color-rgb: 240, 240, 240;
+
+}
+/* Navbar */
+  .navbar {
+    --bs-navbar-color: rgba(255, 255, 255, 0.58);
+    --bs-navbar-hover-color: #fff;
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-font-size: 1.45rem;
+    --bs-navbar-brand-color: var(--accent);
+    --bs-navbar-brand-hover-color: var(--accent);
+    --bs-navbar-toggler-border-color: var(--glass-border);
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255,1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+/* Nav links */
+  .navbar-nav {
+    --bs-nav-link-font-size: 0.9rem;
+    --bs-nav-link-font-weight: 400;
+    --bs-nav-link-color: rgba(255, 255, 255, 0.58);
+    --bs-nav-link-hover-color: #fff;
+  }
+/* Modal */
+  .modal {
+    --bs-modal-bg: rgba(8, 8, 22, 0.88);
+    --bs-modal-color: #fff;
+    --bs-modal-border-color: var(--glass-border);
+    --bs-modal-border-radius: 22px;
+    --bs-modal-header-border-color: rgba(255, 255, 255, 0.07);
+    --bs-modal-footer-border-color: rgba(255, 255, 255, 0.07);
+    --bs-modal-header-padding: 1.5rem 1.75rem 1.2rem;
+    --bs-modal-inner-border-radius: 22px;
+    --bs-backdrop-opacity: 0.78;
+  }
+body {
+  overflow-x: hidden;
+}
+
+/* ─── Navbar ─── */
+.navbar-glass {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px var(--glass-shadow);
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.navbar-glass.scrolled {
+  background: rgba(8, 8, 22, 0.65) !important;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, 0.45);
+}
+.navbar-brand {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  background: linear-gradient(135deg, var(--accent), var(--accent-warm));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.navbar .nav-link {
+    /* Nav links */
+  --bs-nav-link-font-size: 0.9rem;
+  --bs-nav-link-font-weight: 400;
+  --bs-nav-link-color: rgba(255, 255, 255, 0.58);
+  --bs-nav-link-hover-color: #fff;
+  --bs-navbar-active-color: #fff;
+}
+.navbar .nav-link {
+  font-family: "Epilogue", sans-serif;
+  letter-spacing: 0.01em;
+  padding: 0.45rem 0.9rem;
+  border-radius: 8px;
+  transition: all 0.22s ease;
+  position: relative;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  background: rgba(255, 255, 255, 0.08);
+}
+.navbar .nav-link.active::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 18px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 1px;
+}
+.btn-glass {
+  background: rgba(125, 249, 255, 0.12);
+  border: 1px solid rgba(125, 249, 255, 0.28);
+  color: var(--accent);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 0.42rem 1.2rem;
+  font-weight: 500;
+  font-size: 0.88rem;
+  transition: all 0.22s ease;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Epilogue", sans-serif;
+  letter-spacing: 0.02em;
+}
+.btn-glass:hover {
+  background: rgba(125, 249, 255, 0.22);
+  color: #fff;
+  box-shadow: 0 0 22px rgba(125, 249, 255, 0.18);
+  transform: translateY(-1px);
+}
+.navbar-toggler {
+  padding: 0.4rem 0.6rem;
+}
+
+/* ─── Content wrapper ─── */
+.content-wrapper {
+  z-index: 1;
+}
+
+footer {
+    background-color: #051527;
+    color: #fff;
+    padding: 3rem 0;
+  }
+
+  .social-icons a {
+    font-size: 1.25rem;
+  }
