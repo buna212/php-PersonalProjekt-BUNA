@@ -3,7 +3,7 @@
 $host = "localhost";
 $user="root";
 $pass="";
-$dbname="projekti_personal buna php advanced";
+$dbname="projekti_personal_BB";
 
 try {
 	
