@@ -18,7 +18,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="shop.php">SHOP</a>
@@ -38,35 +38,37 @@
   </div>
 </nav>
 
-
-
-<div id="carouselExampleIndicators" class="carousel-slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+<div class="card" style="width: 18rem;">
+  <img src="images/shirt.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">This shirt is amazing it is made from cotton.</p>
   </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/b.jpg" class="d-block w-100" alt="images" width="2000px" height="500px">
-    </div>
-    <div class="carousel-item">
-      <img src="images/weekend hub.jpg" class="d-block w-100" alt="images"  width="2000px"height="500px">
-    </div>
-    <div class="carousel-item">
-      <img src="images/pink1.jpg" class="d-block w-100" alt="images">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
-    
+
+
+<div class="card" style="width: 18rem;">
+  <img src="images/jeans.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="images/longshirt.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/hoodie.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
 
 
 <div class="card text-center" style="background:pink;">
