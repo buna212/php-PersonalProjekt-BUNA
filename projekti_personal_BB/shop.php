@@ -49,7 +49,7 @@
 <div class="card" style="width: 18rem;">
   <img src="images/jeans.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">Jeans that fit every person like a glove.</p>
   </div>
 </div>
 
@@ -58,16 +58,48 @@
 <div class="card" style="width: 18rem;">
   <img src="images/longshirt.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">Long shirt with the softest texture.</p>
   </div>
 </div>
 
 <div class="card" style="width: 18rem;">
   <img src="images/hoodie.jpg" class="card-img-top" alt="images">
   <div class="card-body">
+    <p class="card-text">The hoodie that feels like a cloud.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/poloshirt.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
   </div>
 </div>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/flaredjeans.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/shirtt.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -84,15 +116,6 @@
    @Urban.Doll.NYC
   </div>
 </div>
-
-
-
-
-
-
-
-
-
 
 
 
