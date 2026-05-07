@@ -97,7 +97,7 @@
   <form>
     <input type="email" placeholder="Email" required>
     <input type="password" placeholder="Password" required>
-    <button type="submit">Sign In</button>
+    <button type="submit"  href="admin.php">Sign In</button>
   </form>
   <div class="footer">
     <p>Don't have an account? <a href="sign_in.php">Sign up</a></p>
