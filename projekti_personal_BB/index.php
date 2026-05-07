@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary" >
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Urban Doll NYC</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,10 +22,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="shop.php">SHOP</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="login.php">LOGIN
-          </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="sign_in.php">SIGN_IN</a>
@@ -48,7 +44,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/b.jpg" class="d-block w-100" alt="images" width="2000px" height="500px">
+      <img src="images/shoped.jpg" class="d-block w-100" alt="images" width="2000px" height="500px">
     </div>
     <div class="carousel-item">
       <img src="images/weekend hub.jpg" class="d-block w-100" alt="images"  width="2000px"height="500px">
@@ -57,15 +53,27 @@
       <img src="images/pink1.jpg" class="d-block w-100" alt="images">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
 </div>
+<h1> WHY YOU SHOULD CHOOSE US ? </h1>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/team.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">
+      Our team is very kind to the customers.</p>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="images/trust.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">
+     We build our company to make sure that everyone trusts us .</p>
+  </div>
+</div>
+
+
+
     
 
 

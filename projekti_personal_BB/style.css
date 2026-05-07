@@ -4,3 +4,20 @@
   
 }
 
+.card-item {
+    width: 33.33%;
+    margin-right: 30px;
+    height: 500px !important;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+.card-item img {
+    height: 250px;
+}
+.container-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

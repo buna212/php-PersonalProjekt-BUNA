@@ -20,11 +20,7 @@
           <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SHOP</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">LOGIN
-          </a>
+          <a class="nav-link" href="shop.php">SHOP</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="sign_in.php">SIGN_IN</a>
@@ -36,6 +32,8 @@
     </div>
   </div>
 </nav>
+
+
 </body>
 
 

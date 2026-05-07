@@ -18,15 +18,12 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link active" aria-current="page" href="index.php">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="shop.php">SHOP</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="login.php">LOGIN
-          </a>
-        </li>
+       
         <li class="nav-item">
           <a class="nav-link" href="sign_in.php">SIGN_IN</a>
         </li>
@@ -37,8 +34,8 @@
     </div>
   </div>
 </nav>
-
-<div class="card" style="width: 18rem;">
+<div class="container-card">
+  <div class="card card-item" style="width: 18rem;">
   <img src="images/shirt.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">This shirt is amazing it is made from cotton.</p>
@@ -46,7 +43,7 @@
 </div>
 
 
-<div class="card" style="width: 18rem;">
+<div class="card card-item" style="width: 18rem;">
   <img src="images/jeans.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">Jeans that fit every person like a glove.</p>
@@ -55,35 +52,35 @@
 
 
 
-<div class="card" style="width: 18rem;">
+<div class="card card-item" style="width: 18rem;">
   <img src="images/longshirt.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">Long shirt with the softest texture.</p>
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
+<div class="card card-item" style="width: 18rem;">
   <img src="images/hoodie.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">The hoodie that feels like a cloud.</p>
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
+<div class="card card-item" style="width: 18rem;">
   <img src="images/poloshirt.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
+<div class="card card-item" style="width: 18rem;">
   <img src="images/flaredjeans.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
+<div class="card card-item" style="width: 18rem;">
   <img src="images/shirtt.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -91,6 +88,41 @@
 </div>
 
 
+<div class="card card-item" style="width: 18rem;">
+  <img src="images/scarfff.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+<div class="card card-item" style="width: 18rem;">
+  <img src="images/hat.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+<div class="card card-item" style="width: 18rem;">
+  <img src="images/miumiu.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+<div class="card card-item" style="width: 18rem;">
+  <img src="images/heels.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+
+<div class="card card-item" style="width: 18rem;">
+  <img src="images/skirt.jpg" class="card-img-top" alt="images">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div>
+</div>
 
 
 
