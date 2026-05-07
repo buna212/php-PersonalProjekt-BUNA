@@ -69,21 +69,21 @@
 <div class="card card-item" style="width: 18rem;">
   <img src="images/poloshirt.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">Polo shirt .</p>
   </div>
 </div>
 
 <div class="card card-item" style="width: 18rem;">
   <img src="images/flaredjeans.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">Flared jeans that flatter every girl and keep you trendy.</p>
   </div>
 </div>
 
 <div class="card card-item" style="width: 18rem;">
   <img src="images/shirtt.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">A shirt that is comfrable on a daily baisis.</p>
   </div>
 </div>
 
@@ -91,35 +91,35 @@
 <div class="card card-item" style="width: 18rem;">
   <img src="images/scarfff.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">Just fashionable and keeps you warmm.</p>
   </div>
 </div>
 
 <div class="card card-item" style="width: 18rem;">
   <img src="images/hat.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">A hat that keeps sunlight out of your facee.</p>
   </div>
 </div>
 
 <div class="card card-item" style="width: 18rem;">
   <img src="images/miumiu.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">A bag for a casual day out.</p>
   </div>
 </div>
 
 <div class="card card-item" style="width: 18rem;">
   <img src="images/heels.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">These heeels aree peerrrfeccttt for a night out with your friend or go to a party.</p>
   </div>
 </div>
 
 <div class="card card-item" style="width: 18rem;">
   <img src="images/skirt.jpg" class="card-img-top" alt="images">
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <p class="card-text">A skirt that flatters everyone.</p>
   </div>
 </div>
 </div>

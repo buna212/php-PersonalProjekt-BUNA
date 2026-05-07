@@ -50,7 +50,7 @@ $getProducts = mysqli_query($conn, "SELECT * FROM products");
                 <th>Image</th>
                 <th>Name</th>
                 <th>Price</th>
-                <th>Actions</th>
+                
             </tr>
 
         </thead>

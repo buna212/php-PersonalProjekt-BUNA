@@ -21,3 +21,11 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
+
+.card.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

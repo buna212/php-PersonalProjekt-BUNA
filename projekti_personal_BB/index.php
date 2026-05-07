@@ -56,7 +56,7 @@
 </div>
 <h1> WHY YOU SHOULD CHOOSE US ? </h1>
 
-<div class="card" style="width: 18rem;">
+<div class="card.index" style="width: 18rem;">
   <img src="images/team.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">
@@ -64,7 +64,7 @@
   </div>
 </div>
 
-<div class="card" style="width: 18rem;">
+<div class="card.index" style="width: 18rem;">
   <img src="images/trust.jpg" class="card-img-top" alt="images">
   <div class="card-body">
     <p class="card-text">

@@ -1,86 +1,34 @@
-<?php
-include("db.php");
+<?php	
 
-if(isset($_POST['add_product'])){
+//Including config.php file for connection with database 
+	include_once('CONFIG.php');
 
-    $name = $_POST['product_name'];
-    $price = $_POST['product_price'];
+//If the button Add Movie in movies.php is pressed, we will get datas that users added into the form, and insert them into database :
+	if(isset($_POST['submit']))
+	{
 
-    $image = $_FILES['product_image']['name'];
-    $tmp_name = $_FILES['product_image']['tmp_name'];
+		$product_id = $_POST['product_id'];
+		$product_name = $_POST['product_name'];
+        $product_id = $_POST['movie_name'];
+	
 
-    move_uploaded_file($tmp_name, "uploads/$image");
+		$sql = "INSERT INTO products(movie_id, movie_name) VALUES (:movie_name, :movie_desc, :movie_quality, :movie_rating, :movie_image)";
 
-    mysqli_query($conn, "INSERT INTO products
-    (product_name, product_price, product_image)
+		$insertProducts = $conn->prepare($sql);
+			
 
-    VALUES
+		$insertMovie->bindParam(':movie_name', $movie_name);
+		$insertMovie->bindParam(':movie_desc', $movie_desc);
+	
 
-    ('$name', '$price', '$image')
-    ");
+		$insertProduct->execute();
 
-    header("Location: admin.php");
-}
+		header("Location: shop.php");
+
+
+	}
+
+
+
+
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Add Product</title>
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-
-<div class="container mt-5">
-
-    <h1>Add Product</h1>
-
-    <form method="POST" enctype="multipart/form-data">
-
-        <div class="mb-3">
-
-            <label>Product Name</label>
-
-            <input type="text"
-            name="product_name"
-            class="form-control"
-            required>
-
-        </div>
-
-        <div class="mb-3">
-
-            <label>Product Price</label>
-
-            <input type="number"
-            step="0.01"
-            name="product_price"
-            class="form-control"
-            required>
-
-        </div>
-
-        <div class="mb-3">
-
-            <label>Product Image</label>
-
-            <input type="file"
-            name="product_image"
-            class="form-control"
-            required>
-
-        </div>
-
-        <button type="submit"
-        name="add_product"
-        class="btn btn-dark">
-        Add Product
-        </button>
-
-    </form>
-
-</div>
-
-</body>
-</html>
