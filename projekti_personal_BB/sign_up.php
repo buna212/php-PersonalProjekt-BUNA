@@ -76,6 +76,9 @@
         <li class="nav-item">
           <a class="nav-link" href="sign_in.php">SIGN_IN</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sign_up.php">SIGN_UP</a>
+        </li>
       </ul>
       <span class="navbar-text">
        Shop at Urban Doll NYC
@@ -85,14 +88,14 @@
 </nav>
 <div class="outter-container">
 <div class="container">
-  <h2>Sign In</h2>
+  <h2>Sign Up</h2>
   <form>
     <input type="email" placeholder="Email" required>
     <input type="password" placeholder="Password" required>
+    <input type="confirm password" placeholder="Confirm Password" required>
     <button type="submit"  href="admin.php">Sign In</button>
   </form>
   <div class="footer">
-    <p>Have an account? <a href="sign_up.php">Sign up</a></p>
   </div>
 </div>
 </div>

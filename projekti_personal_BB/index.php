@@ -26,6 +26,9 @@
         <li class="nav-item">
           <a class="nav-link" href="sign_in.php">SIGN_IN</a>
         </li>
+         <li class="nav-item">
+          <a class="nav-link" href="sign_up.php">SIGN_UP</a>
+        </li>
       </ul>
       <span class="navbar-text">
        Shop at Urban Doll NYC
@@ -44,7 +47,7 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/shoped.jpg" class="d-block w-100" alt="images" width="2000px" height="500px">
+      <img src="images/nahsta.webp" class="d-block w-100" alt="images" width="2000px" height="500px">
     </div>
     <div class="carousel-item">
       <img src="images/weekend hub.jpg" class="d-block w-100" alt="images"  width="2000px"height="500px">

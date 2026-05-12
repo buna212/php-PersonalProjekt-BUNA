@@ -70,7 +70,7 @@ $getProducts = mysqli_query($conn, "SELECT * FROM products");
 
                 <td><?= $row['product_name']; ?></td>
 
-                <td>$<?= $row['product_price']; ?></td>
+                
 
                 <td>
 
