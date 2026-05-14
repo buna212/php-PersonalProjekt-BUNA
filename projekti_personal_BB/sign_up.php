@@ -128,25 +128,3 @@
 
 
 
-<?php
-include("db.php");
-
-if(isset($_POST['signup'])){
-
-    $email = $_POST['email'];
-    $password = $_POST['password'];
-    $confirm = $_POST['confirm'];
-
-    if($password != $confirm){
-        $error = "Passwords do not match!";
-    } else {
-
-        mysqli_query($conn,
-        "INSERT INTO admin (email, password, role)
-        VALUES ('$email', '$password', 'admin')");
-
-        header("Location: sign_in.php");
-        exit();
-    }
-}
-?>
