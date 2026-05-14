@@ -1,34 +1,28 @@
-<?php	
+<?php
+include("db.php");
 
-//Including config.php file for connection with database 
-	include_once('CONFIG.php');
+if(isset($_POST['add'])){
 
-//If the button Add Movie in movies.php is pressed, we will get datas that users added into the form, and insert them into database :
-	if(isset($_POST['submit']))
-	{
+    $name = $_POST['name'];
+    $price = $_POST['price'];
 
-		$product_id = $_POST['product_id'];
-		$product_name = $_POST['product_name'];
-        $product_id = $_POST['movie_name'];
-	
+    $image = $_FILES['image']['name'];
+    $tmp = $_FILES['image']['tmp_name'];
 
-		$sql = "INSERT INTO products(movie_id, movie_name) VALUES (:movie_name, :movie_desc, :movie_quality, :movie_rating, :movie_image)";
+    move_uploaded_file($tmp, "uploads/" . $image);
 
-		$insertProducts = $conn->prepare($sql);
-			
+    mysqli_query($conn,
+    "INSERT INTO products (product_name, product_price, product_image)
+    VALUES ('$name', '$price', '$image')");
 
-		$insertMovie->bindParam(':movie_name', $movie_name);
-		$insertMovie->bindParam(':movie_desc', $movie_desc);
-	
-
-		$insertProduct->execute();
-
-		header("Location: shop.php");
-
-
-	}
-
-
-
-
+    header("Location: admin.php");
+    exit();
+}
 ?>
+
+<form method="POST" enctype="multipart/form-data">
+    <input type="text" name="name">
+    <input type="number" name="price">
+    <input type="file" name="image">
+    <button type="submit" name="add">Add</button>
+</form>

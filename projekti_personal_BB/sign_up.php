@@ -124,3 +124,29 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+<?php
+include("db.php");
+
+if(isset($_POST['signup'])){
+
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+    $confirm = $_POST['confirm'];
+
+    if($password != $confirm){
+        $error = "Passwords do not match!";
+    } else {
+
+        mysqli_query($conn,
+        "INSERT INTO admin (email, password, role)
+        VALUES ('$email', '$password', 'admin')");
+
+        header("Location: sign_in.php");
+        exit();
+    }
+}
+?>
